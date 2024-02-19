@@ -10,10 +10,11 @@ namespace BE_BW1_Ecommerce
     public class serverConnection
     {
         
-        public static string Connection()
+        public static SqlConnection Connection()
         {
-            return ConfigurationManager.ConnectionStrings["myConnection"].ConnectionString.ToString();
-                       
+            string Contact = ConfigurationManager.ConnectionStrings["myConnection"].ConnectionString.ToString();
+            SqlConnection conn = new SqlConnection(Contact);    
+            return conn;
         }
     }
 
