@@ -13,5 +13,10 @@ namespace BE_BW1_Ecommerce
         {
 
         }
+
+        protected void addToCart_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
