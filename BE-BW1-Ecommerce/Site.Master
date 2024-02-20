@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha384-ZXt4hRULVhpZ1oiKf9Jv5JlfW6s5KyZ0+0vU9qG+kY3qDQyoWs4DMKn0peH5+aa9" crossorigin="anonymous">
+   <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.5.1/css/all.css">
     <title><%: Page.Title %> - Casablanca Board Games</title>
 
     <asp:PlaceHolder runat="server">
